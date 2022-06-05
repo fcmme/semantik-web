@@ -11,7 +11,8 @@ class MainController extends Controller
     {
         $data = new DataController();
         $dataAll = $data->getAllKarakter();
-        return view('karakter', compact('dataAll'));
+        $dataFilm = $data->showFilms();
+        return view('karakter', compact('dataAll', 'dataFilm'));
     }
 
     public function hasilFilterKarakter(Request $request)
@@ -21,7 +22,8 @@ class MainController extends Controller
         $species = $request->species;
         $films = $request->films;
         $dataAll = $data->filtersKarakter($name, $species, $films);
-        return view('karakter', compact('dataAll'));
+        $dataFilm = $data->showFilms();
+        return view('karakter', compact('dataAll', 'dataFilm'));
     }
 
     public function profile($nama){
@@ -42,7 +44,8 @@ class MainController extends Controller
     {
         $data = new DataController();
         $name = $request->name;
-        $dataAll = $data->filtersFilm($name);
+        $phase = $request->phase;
+        $dataAll = $data->filtersFilm($name, $phase);
         return view('film', compact('dataAll'));
     }
 }

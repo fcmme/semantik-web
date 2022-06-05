@@ -30,18 +30,9 @@
     <p>Film: 
         <select name="films" id="films">
             <option value="">Semua</option>
-        	<option value="FILTER (?ir2 = 'TRUE')">Iron Man 2 (2010)</option>
-        	<option value="FILTER (?catfa = 'TRUE')">Captain America: The First Avenger (2011)</option>
-        	<option value="FILTER (?ta = 'TRUE')">The Avengers (2012)</option>
-        	<option value="FILTER (?ir3 = 'TRUE')">Iron Man 3 (2013)</option>
-        	<option value="FILTER (?ttdw = 'TRUE')">Thor: The Dark World (2013)</option>
-        	<option value="FILTER (?catws = 'TRUE')">Captain America: The Winter Soldier (2014)</option>
-        	<option value="FILTER (?aaou = 'TRUE')">Avengers: Age of Ultron (2015)</option>
-        	<option value="FILTER (?cacw = 'TRUE')">Captain America: Civil War (2016)</option>
-        	<option value="FILTER (?smh = 'TRUE')">Spider-Man: Homecoming (2017)</option>
-        	<option value="FILTER (?tr = 'TRUE')">Thor: Ragnarok (2017)</option>
-        	<option value="FILTER (?aiw = 'TRUE')">Avengers: Infinity War (2018)</option>
-        	<option value="FILTER (?ae = 'TRUE')">Avengers: Endgame (2019)</option>
+            @foreach ($dataFilm as $films)
+        	<option value="FILTER (?{{ $films->id }} = 'TRUE')">{{ $films->title }}</option>
+            @endforeach
         </select>
     </p>
 

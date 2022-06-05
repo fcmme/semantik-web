@@ -23,7 +23,3 @@ Route::get('/karakter/{nama}', [App\Http\Controllers\MainController::class, 'pro
 
 Route::get('/film', [App\Http\Controllers\MainController::class, 'dataFilm']);
 Route::post('/film', [App\Http\Controllers\MainController::class, 'hasilFilterFilm']);
-
-Route::get('/profile', function () {
-    return view('profile');
-});

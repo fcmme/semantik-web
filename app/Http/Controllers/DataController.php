@@ -29,9 +29,9 @@ class DataController extends Controller
         return $sparql->filmList('all');
     }
 
-    function filtersFilm($name){
+    function filtersFilm($name, $phase){
         $sparql = new Sparql();
-        $data = $sparql->memfilterFilm($name);
+        $data = $sparql->memfilterFilm($name, $phase);
         return $data;
     }
 

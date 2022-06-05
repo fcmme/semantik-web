@@ -1,0 +1,2109 @@
+# filename:data.ttl
+@prefix d:       <http://learningsparql.com/ns/data#> .
+@prefix ab:      <http://learningsparql.com/ns/addressbook#> .
+
+d:c001
+	ab:name			"Iron Man" ;
+	ab:fullName		"Anthony Edward Stark" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1970" ;
+	ab:actor		"Robert Downey, Jr." ;
+	ab:picture		"iron-man" ;
+	ab:type			"character" ;
+	ab:ir			"TRUE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"TRUE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"TRUE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"TRUE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c002
+	ab:name			"Captain America" ;
+	ab:fullName		"Steve Rogers" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1918" ;
+	ab:actor		"Chris Evans" ;
+	ab:picture		"captain-america" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"TRUE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"TRUE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c003
+	ab:name			"Black Widow" ;
+	ab:fullName		"Natalia Alianovna Romanoff" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"1984" ;
+	ab:actor		"Scarlett Johansson" ;
+	ab:picture		"black-widow" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"TRUE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"TRUE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"TRUE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c004
+	ab:name			"Thor" ;
+	ab:fullName		"Thor Odinson" ;
+	ab:species		"Asgardian" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"964 A.D.–965 A.D." ;
+	ab:actor		"Chris Hemsworth" ;
+	ab:picture		"thor" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"TRUE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"TRUE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c005
+	ab:name			"Hulk" ;
+	ab:fullName		"Robert Bruce Banner" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1969" ;
+	ab:actor		"Mark Ruffalo" ;
+	ab:picture		"hulk" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"TRUE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"TRUE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c006
+	ab:name			"Hawkeye" ;
+	ab:fullName		"Clinton Francis Barton" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Awal–Pertengahan 1970an" ;
+	ab:actor		"Jeremy Renner" ;
+	ab:picture		"hawkeye" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"TRUE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c007
+	ab:name			"War Machine" ;
+	ab:fullName		"James Rupert Rhodes" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1968" ;
+	ab:actor		"Don Cheadle" ;
+	ab:picture		"war-machine" ;
+	ab:type			"character" ;
+	ab:ir			"TRUE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"TRUE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"TRUE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c008
+	ab:name			"Vision" ;
+	ab:fullName		"Vision" ;
+	ab:species		"Synthezoid" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"2015" ;
+	ab:actor		"Paul Bettany" ;
+	ab:picture		"vision" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c009
+	ab:name			"Winter Soldier" ;
+	ab:fullName		"James Buchanan Barnes" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1917" ;
+	ab:actor		"Sebastian Stan" ;
+	ab:picture		"winter-soldier" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"TRUE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"TRUE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c010
+	ab:name			"Scarlet Witch" ;
+	ab:fullName		"Wanda Maximoff" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"1989" ;
+	ab:actor		"Elizabeth Olsen" ;
+	ab:picture		"scarlet-witch" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c011
+	ab:name			"Loki" ;
+	ab:fullName		"Loki Laufeyson" ;
+	ab:species		"Frost Giant" ;
+	ab:gender		"Tidak Pasti" ;
+	ab:birthYear	"965 A.D." ;
+	ab:actor		"Tom Hiddleston" ;
+	ab:picture		"loki" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"TRUE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"TRUE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"TRUE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c012
+	ab:name			"Falcon" ;
+	ab:fullName		"Samuel Thomas Wilson" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1978" ;
+	ab:actor		"Anthony Mackie" ;
+	ab:picture		"falcon" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"TRUE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"TRUE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c013
+	ab:name			"Spider-Man" ;
+	ab:fullName		"Peter Benjamin Parker" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"2001" ;
+	ab:actor		"Tom Holland" ;
+	ab:picture		"spider-man" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"TRUE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"TRUE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c014
+	ab:name			"Doctor Strange" ;
+	ab:fullName		"Stephen Vincent Strange" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Benedict Cumberbatch" ;
+	ab:picture		"doctor-strange" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"TRUE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"TRUE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"TRUE" ;
+	ab:dsmm			"TRUE" .
+
+d:c015
+	ab:name			"Star-Lord" ;
+	ab:fullName		"Peter Jason Quill" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1980" ;
+	ab:actor		"Chris Pratt" ;
+	ab:picture		"star-lord" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"TRUE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"TRUE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c016
+	ab:name			"Groot" ;
+	ab:fullName		"Groot" ;
+	ab:species		"Flora Colossus" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Vin Diesel" ;
+	ab:picture		"groot" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"TRUE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"TRUE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c017
+	ab:name			"Ant-Man" ;
+	ab:fullName		"Scott Edward Harris Lang" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Paul Rudd" ;
+	ab:picture		"ant-man" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"TRUE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"TRUE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c018
+	ab:name			"Black Panther" ;
+	ab:fullName		"T'Challa" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Chadwick Boseman" ;
+	ab:picture		"black-panther" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"TRUE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"TRUE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c019
+	ab:name			"Captain Marvel" ;
+	ab:fullName		"Carol Susan Jane Danvers" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"1960" ;
+	ab:actor		"Brie Larson" ;
+	ab:picture		"captain-marvel" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"TRUE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c020
+	ab:name			"Rocket Raccoon" ;
+	ab:fullName		"89P13" ;
+	ab:species		"Halfworlder" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Bradley Cooper" ;
+	ab:picture		"rocket-raccoon" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"TRUE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"TRUE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c021
+	ab:name			"Okoye" ;
+	ab:fullName		"Okoye" ;
+	ab:species		"Manusa" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Danai Gurira" ;
+	ab:picture		"okoye" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"TRUE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c022
+	ab:name			"Thanos" ;
+	ab:fullName		"Thanos" ;
+	ab:species		"Titan" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1013-1018" ;
+	ab:actor		"Josh Brollin" ;
+	ab:picture		"thanos" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"TRUE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c023
+	ab:name			"Nick Fury" ;
+	ab:fullName		"Nicholas Joseph Fury" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1950" ;
+	ab:actor		"Samuel L. Jackson" ;
+	ab:picture		"nick-fury" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"TRUE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"TRUE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"TRUE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"TRUE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"TRUE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"TRUE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c024
+	ab:name			"Gamora" ;
+	ab:fullName		"Gamora Zen Whoberi Ben Titan" ;
+	ab:species		"Zehoberei" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Zoe Saldana" ;
+	ab:picture		"gamora" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"TRUE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"TRUE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c025
+	ab:name			"Wong" ;
+	ab:fullName		"Wong" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Benedict Wong" ;
+	ab:picture		"wong" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"TRUE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"TRUE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"TRUE" ;
+	ab:dsmm			"TRUE" .
+
+d:c026
+	ab:name			"Phil Coulson" ;
+	ab:fullName		"Phillip J. Coulson" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1964" ;
+	ab:actor		"Clark Gregg" ;
+	ab:picture		"phil-coulson" ;
+	ab:type			"character" ;
+	ab:ir			"TRUE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"TRUE" ;
+	ab:th			"TRUE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"TRUE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c027
+	ab:name			"Agent Carter" ;
+	ab:fullName		"Margaret Elizabeth Carter" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"1921" ;
+	ab:actor		"Hayley Atwell" ;
+	ab:picture		"agent-carter" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"TRUE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"TRUE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"TRUE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c028
+	ab:name			"Drax" ;
+	ab:fullName		"Drax" ;
+	ab:species		"Kylosian" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Dave Bautista" ;
+	ab:picture		"drax" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"TRUE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"TRUE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c029
+	ab:name			"Nebula" ;
+	ab:fullName		"Nebula" ;
+	ab:species		"Luphomoid" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Karen Gillian" ;
+	ab:picture		"nebula" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"TRUE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"TRUE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c030
+	ab:name			"Shuri" ;
+	ab:fullName		"Shuri" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"1998" ;
+	ab:actor		"Letitia Wright" ;
+	ab:picture		"shuri" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"TRUE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c031
+	ab:name			"Mantis" ;
+	ab:fullName		"Mantis" ;
+	ab:species		"tidak diketahui" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"tidak diketahui" ;
+	ab:actor		"Pom Klementieff" ;
+	ab:picture		"mantis" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"TRUE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c032
+	ab:name			"The Wasp" ;
+	ab:fullName		"Hope Van Dyne" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"1979-1980" ;
+	ab:actor		"Evangeline Lilly" ;
+	ab:picture		"the-wasp" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"TRUE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"TRUE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c033
+	ab:name			"Hank Pym" ;
+	ab:fullName		"Henry Jonathan Pym" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1940-1950" ;
+	ab:actor		"Michael Douglas" ;
+	ab:picture		"hank-pym" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"TRUE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"TRUE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c034
+	ab:name			"Valkyrie" ;
+	ab:fullName		"Brunnhilde" ;
+	ab:species		"Asgardian" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Tessa Thompson" ;
+	ab:picture		"valkyrie" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"TRUE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c035
+	ab:name			"Pepper Potts" ;
+	ab:fullName		"Virginia Potts" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Gwyneth Paltrow" ;
+	ab:picture		"pepper-potts" ;
+	ab:type			"character" ;
+	ab:ir			"TRUE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"TRUE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"TRUE" ;
+	ab:ir3			"TRUE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"TRUE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c036
+	ab:name			"Yelena Belova" ;
+	ab:fullName		"Yelena Belova" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"1988-1989" ;
+	ab:actor		"Florence Pugh" ;
+	ab:picture		"yelena-belova" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"TRUE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c037
+	ab:name			"Michelle Jones" ;
+	ab:fullName		"Michelle Jones-Watson" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"2001" ;
+	ab:actor		"Zendaya" ;
+	ab:picture		"michelle-jones" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"TRUE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"TRUE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"TRUE" ;
+	ab:dsmm			"FALSE" .
+
+d:c038
+	ab:name			"America Chavez" ;
+	ab:fullName		"America Chavez" ;
+	ab:species		"Tidak Diketahui" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Xochitl Gomez" ;
+	ab:picture		"america-chavez" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"TRUE" .
+
+d:c039
+	ab:name			"Shang-Chi" ;
+	ab:fullName		"Xu Shang-Chi" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"1999" ;
+	ab:actor		"Simu Liu" ;
+	ab:picture		"shang-chi" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"TRUE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c040
+	ab:name			"Sersi" ;
+	ab:fullName		"Sersi" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Gemma Chan" ;
+	ab:picture		"sersi" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c041
+	ab:name			"Ikaris" ;
+	ab:fullName		"Ikaris" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Richard Madden" ;
+	ab:picture		"ikaris" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c042
+	ab:name			"Thena" ;
+	ab:fullName		"Thena" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Angelina Jolie" ;
+	ab:picture		"thena" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c043
+	ab:name			"Kingo" ;
+	ab:fullName		"Kingo" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Kumail Nanjiani" ;
+	ab:picture		"kingo" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c044
+	ab:name			"Phastos" ;
+	ab:fullName		"Phastos" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Brian Tyree Henry" ;
+	ab:picture		"phastos" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c045
+	ab:name			"Ajak" ;
+	ab:fullName		"Ajak" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Salma Hayek" ;
+	ab:picture		"ajak" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c046
+	ab:name			"Sprite" ;
+	ab:fullName		"Sprite" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Lia McHugh" ;
+	ab:picture		"sprite" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c047
+	ab:name			"Makkari" ;
+	ab:fullName		"Makkari" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Lauren Ridloff" ;
+	ab:picture		"makkari" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c048
+	ab:name			"Druig" ;
+	ab:fullName		"Druig" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Barry Keoghan" ;
+	ab:picture		"druig" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c049
+	ab:name			"Gilgamesh" ;
+	ab:fullName		"Gilgamesh" ;
+	ab:species		"Eternal" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Don Lee" ;
+	ab:picture		"gilgamesh" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"TRUE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c050
+	ab:name			"Katy Chen" ;
+	ab:fullName		"Chen Ruiwen" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Wanita" ;
+	ab:birthYear	"Tidak Diketahui" ;
+	ab:actor		"Awkwafina" ;
+	ab:picture		"katy-chen" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"FALSE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"FALSE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"FALSE" ;
+	ab:smffh		"FALSE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"TRUE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"FALSE" ;
+	ab:dsmm			"FALSE" .
+
+d:c051
+	ab:name			"Ned Leeds" ;
+	ab:fullName		"Edward Leeds" ;
+	ab:species		"Manusia" ;
+	ab:gender		"Pria" ;
+	ab:birthYear	"2001" ;
+	ab:actor		"Jacob Batalon" ;
+	ab:picture		"ned-leeds" ;
+	ab:type			"character" ;
+	ab:ir			"FALSE" ;
+	ab:tih			"FALSE" ;
+	ab:ir2			"FALSE" ;
+	ab:th			"FALSE" ;
+	ab:catfa		"FALSE" ;
+	ab:ta			"FALSE" ;
+	ab:ir3			"FALSE" ;
+	ab:ttdw			"FALSE" ;
+	ab:catws		"FALSE" ;
+	ab:gotg			"FALSE" ;
+	ab:aaou			"FALSE" ;
+	ab:am			"FALSE" ;
+	ab:cacw			"FALSE" ;
+	ab:ds			"FALSE" ;
+	ab:gotgv2		"FALSE" ;
+	ab:smh			"TRUE" ;
+	ab:tr			"FALSE" ;
+	ab:bp			"FALSE" ;
+	ab:aiw			"TRUE" ;
+	ab:amatw		"FALSE" ;
+	ab:cm			"FALSE" ;
+	ab:ae			"TRUE" ;
+	ab:smffh		"TRUE" ;
+	ab:bw			"FALSE" ;
+	ab:sc			"FALSE" ;
+	ab:et			"FALSE" ;
+	ab:smnwh		"TRUE" ;
+	ab:dsmm			"FALSE" .
+
+d:m001
+    ab:id       "ir" ;
+    ab:title    "Iron Man (2008)" ;
+    ab:type     "movie" ;
+    ab:phase	"One" .
+
+d:m002
+    ab:id       "tih" ;
+    ab:title    "The Incredible Hulk (2008)" ;
+    ab:type     "movie" ;
+    ab:phase	"One" .
+
+d:m003
+    ab:id       "ir2" ;
+    ab:title    "Iron Man 2 (2010)" ;
+    ab:type     "movie" ;
+    ab:phase	"One" .
+
+d:m004
+    ab:id       "th" ;
+    ab:title    "Thor (2011)" ;
+    ab:type     "movie" ;
+    ab:phase	"One" .
+
+d:m005
+    ab:id       "catfa" ;
+    ab:title    "Captain America: The First Avenger (2011)" ;
+    ab:type     "movie" ;
+    ab:phase	"One" .
+
+d:m006
+    ab:id       "ta" ;
+    ab:title    "The Avengers (2012)" ;
+    ab:type     "movie" ;
+    ab:phase	"Two" .
+
+d:m007
+    ab:id       "ir3" ;
+    ab:title    "Iron Man 3 (2013)" ;
+    ab:type     "movie" ;
+    ab:phase	"Two" .
+
+d:m008
+    ab:id       "ttdw" ;
+    ab:title    "Thor: The Dark World (2013)" ;
+    ab:type     "movie" ;
+    ab:phase	"Two" .
+
+d:m009
+    ab:id       "catws" ;
+    ab:title    "Captain America: The Winter Soldier (2014)" ;
+    ab:type     "movie" ;
+    ab:phase	"Two" .
+
+d:m010
+    ab:id       "gotg" ;
+    ab:title    "Guardians of the Galaxy (2014)" ;
+    ab:type     "movie" ;
+    ab:phase	"Two" .
+
+d:m011
+    ab:id       "aaou" ;
+    ab:title    "Avengers: Age of Ultron (2015)" ;
+    ab:type     "movie" ;
+    ab:phase	"Two" .
+
+d:m012
+    ab:id       "am" ;
+    ab:title    "Ant-Man (2015)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m013
+    ab:id       "cacw" ;
+    ab:title    "Captain America: Civil War (2016)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m014
+    ab:id       "ds" ;
+    ab:title    "Doctor Strange (2016)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m015
+    ab:id       "gotgv2" ;
+    ab:title    "Guardians of the Galaxy Vol. 2 (2017)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m016
+    ab:id       "smh" ;
+    ab:title    "Spider-Man: Homecoming (2017)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m017
+    ab:id       "tr" ;
+    ab:title    "Thor: Ragnarok (2017)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m018
+    ab:id       "bp" ;
+    ab:title    "Black Panther (2018)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m019
+    ab:id       "aiw" ;
+    ab:title    "Avengers: Infinity War (2018)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m020
+    ab:id       "amatw" ;
+    ab:title    "Ant-Man and the Wasp (2018)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m021
+    ab:id       "cm" ;
+    ab:title    "Captain Marvel (2019)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m022
+    ab:id       "ae" ;
+    ab:title    "Avengers: Endgame (2019)" ;
+    ab:type     "movie" ;
+    ab:phase	"Three" .
+
+d:m023
+    ab:id       "smffh" ;
+    ab:title    "Spider-Man: Far From Home (2019)" ;
+    ab:type     "movie" ;
+    ab:phase	"Four" .
+
+d:m024
+    ab:id       "bw" ;
+    ab:title    "Black Widow (2021)" ;
+    ab:type     "movie" ;
+    ab:phase	"Four" .
+
+d:m025
+    ab:id       "sc" ;
+    ab:title    "Shang-Chi and the Legend of the Ten Rings (2021)" ;
+    ab:type     "movie" ;
+    ab:phase	"Four" .
+
+d:m026
+    ab:id       "et" ;
+    ab:title    "Eternals (2021)" ;
+    ab:type     "movie" ;
+    ab:phase	"Four" .
+
+d:m027
+    ab:id       "smnwh" ;
+    ab:title    "Spider-Man: No Way Home (2021)" ;
+    ab:type     "movie" ;
+    ab:phase	"Four" .
+
+d:m028
+    ab:id       "dsmm" ;
+    ab:title    "Doctor Strange in the Multiverse of Madness (2022)" ;
+    ab:type     "movie" ;
+    ab:phase	"Four" .

@@ -13,7 +13,24 @@
         </div>
     </div>
 
-    <button type="submit" class="mt-3">Filter</button>
+    <!-- Filter -->
+    <h4 class="pt-5">Filter</h4>
+
+    <!-- Phase -->
+    <p>Phase: 
+        <input type="radio" id="phase0" name="phase" value="">
+        <label for="phase0" class="pilihan"> Semua</label>
+        <input type="radio" id="phase1" name="phase" value="FILTER (?phase = 'One')">
+        <label for="phase1" class="pilihan"> Phase One</label>
+        <input type="radio" id="phase2" name="phase" value="FILTER (?phase = 'Two')">
+        <label for="phase2" class="pilihan"> Phase Two</label>
+        <input type="radio" id="phase3" name="phase" value="FILTER (?phase = 'Three')">
+        <label for="phase3" class="pilihan"> Phase Three</label>
+        <input type="radio" id="phase4" name="phase" value="FILTER (?phase = 'Four')">
+        <label for="phase4" class="pilihan"> Phase Four</label>
+    </p>
+
+    <button type="submit" >Filter</button>
 </form>
 
 <h4 class="pt-5">Hasil</h4>
